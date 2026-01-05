@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Repo') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/manjukolkar/Monitoring-setup.git'
+                    url: 'https://github.com/Swap1998-nam/Monitoring-grafana-Prometheus-Jenkins.git'
             }
         }
 
